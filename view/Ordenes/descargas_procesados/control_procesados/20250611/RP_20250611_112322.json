@@ -1,0 +1,1406 @@
+[
+    {
+        "nombre_archivo": "33509501.json",
+        "procesado": true,
+        "errores": [
+            "MATRICULA no esta definida o esta vacia.",
+            "PRECINTO no esta definido o esta vacio."
+        ],
+        "detalles": [
+            "DNI validado correctamente: IT05346880650",
+            "Email correcto: geminitrasporti@libero.it",
+            "Cuenta de usuario-conductor ya existe: IT05346880650",
+            "Actualizado usuario-conductor: IT05346880650",
+            "IdUsuarioTransportista - Transportista: 41",
+            "Actualizado Transportista: IT05346880650",
+            "Detectado tipo de transporte: M",
+            "El primer lugar de carga es: PARKING SALERNO",
+            "Editando orden: 33509501",
+            "TIPO T-M -> ACTUALIZANDO VIAJE LUGARES_CARGA: 103350950101",
+            "Orden insertada en la BD: 335095\/1",
+            "Directorio creado: \/var\/www\/html\/leader\/logistica\/view\/Ordenes\/descargas_procesados\/20250611",
+            "Archivo movido exitosamente a \/var\/www\/html\/leader\/logistica\/view\/Ordenes\/descargas_procesados\/20250611\/33509501.json"
+        ]
+    },
+    {
+        "nombre_archivo": "33509503.json",
+        "procesado": true,
+        "errores": [
+            "MATRICULA no esta definida o esta vacia.",
+            "PRECINTO no esta definido o esta vacio."
+        ],
+        "detalles": [
+            "DNI validado correctamente: X8330591Z",
+            "Email correcto: ciprian.aurel.leader@gmail.com",
+            "Cuenta de usuario-conductor ya existe: X8330591Z",
+            "Actualizado usuario-conductor: X8330591Z",
+            "IdUsuarioTransportista - Transportista: 52",
+            "Actualizado Transportista: X8330591Z",
+            "Detectado tipo de transporte: M",
+            "El primer lugar de carga es: SAGUNTO",
+            "Editando orden: 33509503",
+            "TIPO T-M -> ACTUALIZANDO VIAJE LUGARES_CARGA: 203350950301",
+            "TIPO T-M -> ACTUALIZANDO VIAJE LUGARES_CARGA: 203350950302",
+            "Orden insertada en la BD: 335095\/3",
+            "Archivo movido exitosamente a \/var\/www\/html\/leader\/logistica\/view\/Ordenes\/descargas_procesados\/20250611\/33509503.json"
+        ]
+    },
+    {
+        "nombre_archivo": "33922200.json",
+        "procesado": false,
+        "errores": [
+            "ORDEN NO CREADA. EL DNI DEBE DE TENER MAS DE 4 POSICIONES. ARCHIVO: 33922200.json DNI: ."
+        ],
+        "detalles": []
+    },
+    {
+        "nombre_archivo": "33923201.json",
+        "procesado": true,
+        "errores": [
+            "MATRICULA no esta definida o esta vacia.",
+            "PRECINTO no esta definido o esta vacio."
+        ],
+        "detalles": [
+            "DNI validado correctamente: X9360212V",
+            "Email correcto: teoexpressrivas@gmail.com",
+            "Cuenta de usuario-conductor ya existe: X9360212V",
+            "Actualizado usuario-conductor: X9360212V",
+            "IdUsuarioTransportista - Transportista: 42",
+            "Actualizado Transportista: X9360212V",
+            "Detectado tipo de transporte: M",
+            "El primer lugar de carga es: AZAMBUJA",
+            "Editando orden: 33923201",
+            "TIPO T-M -> ACTUALIZANDO VIAJE LUGARES_CARGA: 103392320101",
+            "TIPO T-M -> ACTUALIZANDO VIAJE LUGARES_CARGA: 203392320101",
+            "Orden insertada en la BD: 339232\/1",
+            "Archivo movido exitosamente a \/var\/www\/html\/leader\/logistica\/view\/Ordenes\/descargas_procesados\/20250611\/33923201.json"
+        ]
+    },
+    {
+        "nombre_archivo": "33948301.json",
+        "procesado": true,
+        "errores": [
+            "MATRICULA no esta definida o esta vacia.",
+            "PRECINTO no esta definido o esta vacio."
+        ],
+        "detalles": [
+            "DNI validado correctamente: X9360212V",
+            "Email correcto: teoexpressrivas@gmail.com",
+            "Cuenta de usuario-conductor ya existe: X9360212V",
+            "Actualizado usuario-conductor: X9360212V",
+            "IdUsuarioTransportista - Transportista: 42",
+            "Actualizado Transportista: X9360212V",
+            "Detectado tipo de transporte: M",
+            "El primer lugar de carga es: KOMERFISH SA",
+            "Editando orden: 33948301",
+            "TIPO T-M -> ACTUALIZANDO VIAJE LUGARES_CARGA: 103394830101",
+            "TIPO T-M -> ACTUALIZANDO VIAJE LUGARES_CARGA: 203394830101",
+            "Orden insertada en la BD: 339483\/1",
+            "Archivo movido exitosamente a \/var\/www\/html\/leader\/logistica\/view\/Ordenes\/descargas_procesados\/20250611\/33948301.json"
+        ]
+    },
+    {
+        "nombre_archivo": "33948401.json",
+        "procesado": true,
+        "errores": [
+            "MATRICULA no esta definida o esta vacia.",
+            "PRECINTO no esta definido o esta vacio."
+        ],
+        "detalles": [
+            "DNI validado correctamente: IT05346880650",
+            "Email correcto: geminitrasporti@libero.it",
+            "Cuenta de usuario-conductor ya existe: IT05346880650",
+            "Actualizado usuario-conductor: IT05346880650",
+            "IdUsuarioTransportista - Transportista: 41",
+            "Actualizado Transportista: IT05346880650",
+            "Detectado tipo de transporte: M",
+            "El primer lugar de carga es: PARKING GEMINI",
+            "Editando orden: 33948401",
+            "TIPO T-M -> ACTUALIZANDO VIAJE LUGARES_CARGA: 103394840101",
+            "Orden insertada en la BD: 339484\/1",
+            "Archivo movido exitosamente a \/var\/www\/html\/leader\/logistica\/view\/Ordenes\/descargas_procesados\/20250611\/33948401.json"
+        ]
+    },
+    {
+        "nombre_archivo": "33948403.json",
+        "procesado": true,
+        "errores": [
+            "MATRICULA no esta definida o esta vacia.",
+            "PRECINTO no esta definido o esta vacio."
+        ],
+        "detalles": [
+            "DNI validado correctamente: X4211879G",
+            "Email correcto: leadertransport25@gmail.com",
+            "Cuenta de usuario-conductor ya existe: X4211879G",
+            "Actualizado usuario-conductor: X4211879G",
+            "IdUsuarioTransportista - Transportista: 55",
+            "Actualizado Transportista: X4211879G",
+            "Detectado tipo de transporte: M",
+            "El primer lugar de carga es: SAGUNTO",
+            "Editando orden: 33948403",
+            "TIPO T-M -> ACTUALIZANDO VIAJE LUGARES_CARGA: 203394840301",
+            "TIPO T-M -> ACTUALIZANDO VIAJE LUGARES_CARGA: 203394840302",
+            "Orden insertada en la BD: 339484\/3",
+            "Archivo movido exitosamente a \/var\/www\/html\/leader\/logistica\/view\/Ordenes\/descargas_procesados\/20250611\/33948403.json"
+        ]
+    },
+    {
+        "nombre_archivo": "33952101.json",
+        "procesado": true,
+        "errores": [
+            "MATRICULA no esta definida o esta vacia.",
+            "PRECINTO no esta definido o esta vacio."
+        ],
+        "detalles": [
+            "DNI validado correctamente: X3611338Q",
+            "Email correcto: madalintudose700@gmail.com",
+            "Cuenta de usuario-conductor ya existe: X3611338Q",
+            "Actualizado usuario-conductor: X3611338Q",
+            "IdUsuarioTransportista - Transportista: 56",
+            "Actualizado Transportista: X3611338Q",
+            "Detectado tipo de transporte: M",
+            "El primer lugar de carga es: PARKING LEADER",
+            "Editando orden: 33952101",
+            "TIPO T-M -> ACTUALIZANDO VIAJE LUGARES_CARGA: 103395210101",
+            "TIPO T-M -> ACTUALIZANDO VIAJE LUGARES_CARGA: 203395210101",
+            "Orden insertada en la BD: 339521\/1",
+            "Archivo movido exitosamente a \/var\/www\/html\/leader\/logistica\/view\/Ordenes\/descargas_procesados\/20250611\/33952101.json"
+        ]
+    },
+    {
+        "nombre_archivo": "33952201.json",
+        "procesado": true,
+        "errores": [
+            "MATRICULA no esta definida o esta vacia.",
+            "PRECINTO no esta definido o esta vacio."
+        ],
+        "detalles": [
+            "DNI validado correctamente: X9360212V",
+            "Email correcto: teoexpressrivas@gmail.com",
+            "Cuenta de usuario-conductor ya existe: X9360212V",
+            "Actualizado usuario-conductor: X9360212V",
+            "IdUsuarioTransportista - Transportista: 42",
+            "Actualizado Transportista: X9360212V",
+            "Detectado tipo de transporte: M",
+            "El primer lugar de carga es: OPORTO",
+            "Editando orden: 33952201",
+            "TIPO T-M -> ACTUALIZANDO VIAJE LUGARES_CARGA: 103395220101",
+            "TIPO T-M -> ACTUALIZANDO VIAJE LUGARES_CARGA: 203395220101",
+            "Orden insertada en la BD: 339522\/1",
+            "Archivo movido exitosamente a \/var\/www\/html\/leader\/logistica\/view\/Ordenes\/descargas_procesados\/20250611\/33952201.json"
+        ]
+    },
+    {
+        "nombre_archivo": "33955001.json",
+        "procesado": true,
+        "errores": [
+            "MATRICULA no esta definida o esta vacia.",
+            "PRECINTO no esta definido o esta vacio."
+        ],
+        "detalles": [
+            "DNI validado correctamente: X9360212V",
+            "Email correcto: teoexpressrivas@gmail.com",
+            "Cuenta de usuario-conductor ya existe: X9360212V",
+            "Actualizado usuario-conductor: X9360212V",
+            "IdUsuarioTransportista - Transportista: 42",
+            "Actualizado Transportista: X9360212V",
+            "Detectado tipo de transporte: M",
+            "El primer lugar de carga es: EL CORTE INGLES",
+            "Editando orden: 33955001",
+            "TIPO T-M -> ACTUALIZANDO VIAJE LUGARES_CARGA: 103395500101",
+            "TIPO T-M -> ACTUALIZANDO VIAJE LUGARES_CARGA: 203395500101",
+            "Orden insertada en la BD: 339550\/1",
+            "Archivo movido exitosamente a \/var\/www\/html\/leader\/logistica\/view\/Ordenes\/descargas_procesados\/20250611\/33955001.json"
+        ]
+    },
+    {
+        "nombre_archivo": "33958701.json",
+        "procesado": true,
+        "errores": [
+            "MATRICULA no esta definida o esta vacia.",
+            "PRECINTO no esta definido o esta vacio."
+        ],
+        "detalles": [
+            "DNI validado correctamente: 24236936L",
+            "Email correcto: afh3can@gmail.com",
+            "Cuenta de usuario-conductor ya existe: 24236936L",
+            "Actualizado usuario-conductor: 24236936L",
+            "IdUsuarioTransportista - Transportista: 57",
+            "Actualizado Transportista: 24236936L",
+            "Detectado tipo de transporte: M",
+            "El primer lugar de carga es: INDUCAE CARROCE",
+            "Editando orden: 33958701",
+            "TIPO T-M -> ACTUALIZANDO VIAJE LUGARES_CARGA: 103395870101",
+            "TIPO T-M -> ACTUALIZANDO VIAJE LUGARES_CARGA: 203395870101",
+            "Orden insertada en la BD: 339587\/1",
+            "Archivo movido exitosamente a \/var\/www\/html\/leader\/logistica\/view\/Ordenes\/descargas_procesados\/20250611\/33958701.json"
+        ]
+    },
+    {
+        "nombre_archivo": "33960501.json",
+        "procesado": true,
+        "errores": [
+            "MATRICULA no esta definida o esta vacia.",
+            "PRECINTO no esta definido o esta vacio."
+        ],
+        "detalles": [
+            "DNI validado correctamente: 71219972N",
+            "Email correcto: joseignacioosanchez@gmail.com",
+            "Cuenta de usuario-conductor ya existe: 71219972N",
+            "Actualizado usuario-conductor: 71219972N",
+            "IdUsuarioTransportista - Transportista: 45",
+            "Actualizado Transportista: 71219972N",
+            "Detectado tipo de transporte: M",
+            "El primer lugar de carga es: PARKING LEADER",
+            "Editando orden: 33960501",
+            "TIPO T-M -> ACTUALIZANDO VIAJE LUGARES_CARGA: 103396050101",
+            "TIPO T-M -> ACTUALIZANDO VIAJE LUGARES_CARGA: 203396050101",
+            "Orden insertada en la BD: 339605\/1",
+            "Archivo movido exitosamente a \/var\/www\/html\/leader\/logistica\/view\/Ordenes\/descargas_procesados\/20250611\/33960501.json"
+        ]
+    },
+    {
+        "nombre_archivo": "33960801.json",
+        "procesado": true,
+        "errores": [
+            "MATRICULA no esta definida o esta vacia.",
+            "PRECINTO no esta definido o esta vacio."
+        ],
+        "detalles": [
+            "DNI validado correctamente: X4211879G",
+            "Email correcto: leadertransport25@gmail.com",
+            "Cuenta de usuario-conductor ya existe: X4211879G",
+            "Actualizado usuario-conductor: X4211879G",
+            "IdUsuarioTransportista - Transportista: 55",
+            "Actualizado Transportista: X4211879G",
+            "Detectado tipo de transporte: M",
+            "El primer lugar de carga es: PARKING LEADER",
+            "Editando orden: 33960801",
+            "TIPO T-M -> ACTUALIZANDO VIAJE LUGARES_CARGA: 103396080101",
+            "TIPO T-M -> ACTUALIZANDO VIAJE LUGARES_CARGA: 203396080101",
+            "Orden insertada en la BD: 339608\/1",
+            "Archivo movido exitosamente a \/var\/www\/html\/leader\/logistica\/view\/Ordenes\/descargas_procesados\/20250611\/33960801.json"
+        ]
+    },
+    {
+        "nombre_archivo": "33963001.json",
+        "procesado": true,
+        "errores": [
+            "MATRICULA no esta definida o esta vacia.",
+            "PRECINTO no esta definido o esta vacio."
+        ],
+        "detalles": [
+            "DNI validado correctamente: X9360212V",
+            "Email correcto: teoexpressrivas@gmail.com",
+            "Cuenta de usuario-conductor ya existe: X9360212V",
+            "Actualizado usuario-conductor: X9360212V",
+            "IdUsuarioTransportista - Transportista: 42",
+            "Actualizado Transportista: X9360212V",
+            "Detectado tipo de transporte: M",
+            "El primer lugar de carga es: TRANSTACT CARGO",
+            "Editando orden: 33963001",
+            "TIPO T-M -> ACTUALIZANDO VIAJE LUGARES_CARGA: 103396300101",
+            "TIPO T-M -> ACTUALIZANDO VIAJE LUGARES_CARGA: 203396300101",
+            "Orden insertada en la BD: 339630\/1",
+            "Archivo movido exitosamente a \/var\/www\/html\/leader\/logistica\/view\/Ordenes\/descargas_procesados\/20250611\/33963001.json"
+        ]
+    },
+    {
+        "nombre_archivo": "33965901.json",
+        "procesado": true,
+        "errores": [
+            "MATRICULA no esta definida o esta vacia.",
+            "PRECINTO no esta definido o esta vacio."
+        ],
+        "detalles": [
+            "DNI validado correctamente: X9360212V",
+            "Email correcto: teoexpressrivas@gmail.com",
+            "Cuenta de usuario-conductor ya existe: X9360212V",
+            "Actualizado usuario-conductor: X9360212V",
+            "IdUsuarioTransportista - Transportista: 42",
+            "Actualizado Transportista: X9360212V",
+            "Detectado tipo de transporte: M",
+            "El primer lugar de carga es: CASA TARRADELLA",
+            "Editando orden: 33965901",
+            "TIPO T-M -> ACTUALIZANDO VIAJE LUGARES_CARGA: 103396590101",
+            "TIPO T-M -> ACTUALIZANDO VIAJE LUGARES_CARGA: 203396590101",
+            "Orden insertada en la BD: 339659\/1",
+            "Archivo movido exitosamente a \/var\/www\/html\/leader\/logistica\/view\/Ordenes\/descargas_procesados\/20250611\/33965901.json"
+        ]
+    },
+    {
+        "nombre_archivo": "33969401.json",
+        "procesado": true,
+        "errores": [
+            "MATRICULA no esta definida o esta vacia.",
+            "PRECINTO no esta definido o esta vacio."
+        ],
+        "detalles": [
+            "DNI validado correctamente: X3611338Q",
+            "Email correcto: madalintudose700@gmail.com",
+            "Cuenta de usuario-conductor ya existe: X3611338Q",
+            "Actualizado usuario-conductor: X3611338Q",
+            "IdUsuarioTransportista - Transportista: 56",
+            "Actualizado Transportista: X3611338Q",
+            "Detectado tipo de transporte: M",
+            "El primer lugar de carga es: CALATAYUD",
+            "Editando orden: 33969401",
+            "TIPO T-M -> ACTUALIZANDO VIAJE LUGARES_CARGA: 103396940101",
+            "TIPO T-M -> ACTUALIZANDO VIAJE LUGARES_CARGA: 203396940101",
+            "Orden insertada en la BD: 339694\/1",
+            "Archivo movido exitosamente a \/var\/www\/html\/leader\/logistica\/view\/Ordenes\/descargas_procesados\/20250611\/33969401.json"
+        ]
+    },
+    {
+        "nombre_archivo": "33970500.json",
+        "procesado": true,
+        "errores": [],
+        "detalles": [
+            "DNI validado correctamente: 20455419R",
+            "Email correcto: jcdernisdernis@gmail.com",
+            "Cuenta de usuario-conductor ya existe: 20455419R",
+            "Actualizado usuario-conductor: 20455419R",
+            "IdUsuarioTransportista - Transportista: 43",
+            "Actualizado Transportista: 20455419R",
+            "Detectado tipo de transporte: C",
+            "MATRICULA validada correctamente: CCLU7472720",
+            "PRECINTO validado correctamente: 25213069",
+            "El primer lugar de carga es: TODIJUSE",
+            "Editando orden: 33970500",
+            "TIPO  C -> ACTUALIZANDO viaje: 103397050001",
+            "Orden insertada en la BD: 339705",
+            "Archivo movido exitosamente a \/var\/www\/html\/leader\/logistica\/view\/Ordenes\/descargas_procesados\/20250611\/33970500.json"
+        ]
+    },
+    {
+        "nombre_archivo": "33971901.json",
+        "procesado": true,
+        "errores": [
+            "MATRICULA no esta definida o esta vacia.",
+            "PRECINTO no esta definido o esta vacio."
+        ],
+        "detalles": [
+            "DNI validado correctamente: 74506972J",
+            "Email correcto: tigretonviveros@gmail.com",
+            "Cuenta de usuario-conductor ya existe: 74506972J",
+            "Actualizado usuario-conductor: 74506972J",
+            "IdUsuarioTransportista - Transportista: 58",
+            "Actualizado Transportista: 74506972J",
+            "Detectado tipo de transporte: M",
+            "El primer lugar de carga es: SANTA CRUZ",
+            "Editando orden: 33971901",
+            "TIPO T-M -> ACTUALIZANDO VIAJE LUGARES_CARGA: 103397190101",
+            "TIPO T-M -> ACTUALIZANDO VIAJE LUGARES_CARGA: 203397190101",
+            "Orden insertada en la BD: 339719\/1",
+            "Archivo movido exitosamente a \/var\/www\/html\/leader\/logistica\/view\/Ordenes\/descargas_procesados\/20250611\/33971901.json"
+        ]
+    },
+    {
+        "nombre_archivo": "33980000.json",
+        "procesado": true,
+        "errores": [
+            "MATRICULA no esta definida o esta vacia.",
+            "PRECINTO no esta definido o esta vacio."
+        ],
+        "detalles": [
+            "DNI validado correctamente: B02561363",
+            "Email correcto: fabiana@almansalogistic.com",
+            "Cuenta de usuario-conductor ya existe: B02561363",
+            "Actualizado usuario-conductor: B02561363",
+            "IdUsuarioTransportista - Transportista: 59",
+            "Actualizado Transportista: B02561363",
+            "Detectado tipo de transporte: T",
+            "El primer lugar de carga es: BONFRED",
+            "Editando orden: 33980000",
+            "TIPO T-M -> ACTUALIZANDO VIAJE LUGARES_CARGA: 103398000001",
+            "TIPO T-M -> ACTUALIZANDO VIAJE LUGARES_CARGA: 203398000001",
+            "Orden insertada en la BD: 339800",
+            "Archivo movido exitosamente a \/var\/www\/html\/leader\/logistica\/view\/Ordenes\/descargas_procesados\/20250611\/33980000.json"
+        ]
+    },
+    {
+        "nombre_archivo": "33985701.json",
+        "procesado": true,
+        "errores": [
+            "MATRICULA no esta definida o esta vacia.",
+            "PRECINTO no esta definido o esta vacio."
+        ],
+        "detalles": [
+            "DNI validado correctamente: X8330591Z",
+            "Email correcto: ciprian.aurel.leader@gmail.com",
+            "Cuenta de usuario-conductor ya existe: X8330591Z",
+            "Actualizado usuario-conductor: X8330591Z",
+            "IdUsuarioTransportista - Transportista: 52",
+            "Actualizado Transportista: X8330591Z",
+            "Detectado tipo de transporte: M",
+            "El primer lugar de carga es: ARM. ALIM. NAO",
+            "Editando orden: 33985701",
+            "TIPO T-M -> ACTUALIZANDO VIAJE LUGARES_CARGA: 103398570101",
+            "TIPO T-M -> ACTUALIZANDO VIAJE LUGARES_CARGA: 203398570101",
+            "Orden insertada en la BD: 339857\/1",
+            "Archivo movido exitosamente a \/var\/www\/html\/leader\/logistica\/view\/Ordenes\/descargas_procesados\/20250611\/33985701.json"
+        ]
+    },
+    {
+        "nombre_archivo": "33987901.json",
+        "procesado": true,
+        "errores": [
+            "MATRICULA no esta definida o esta vacia.",
+            "PRECINTO no esta definido o esta vacio."
+        ],
+        "detalles": [
+            "DNI validado correctamente: 71219972N",
+            "Email correcto: joseignacioosanchez@gmail.com",
+            "Cuenta de usuario-conductor ya existe: 71219972N",
+            "Actualizado usuario-conductor: 71219972N",
+            "IdUsuarioTransportista - Transportista: 45",
+            "Actualizado Transportista: 71219972N",
+            "Detectado tipo de transporte: M",
+            "El primer lugar de carga es: CAMPILLO",
+            "Editando orden: 33987901",
+            "TIPO T-M -> ACTUALIZANDO VIAJE LUGARES_CARGA: 103398790101",
+            "TIPO T-M -> ACTUALIZANDO VIAJE LUGARES_CARGA: 203398790101",
+            "Orden insertada en la BD: 339879\/1",
+            "Archivo movido exitosamente a \/var\/www\/html\/leader\/logistica\/view\/Ordenes\/descargas_procesados\/20250611\/33987901.json"
+        ]
+    },
+    {
+        "nombre_archivo": "33989800.json",
+        "procesado": true,
+        "errores": [],
+        "detalles": [
+            "DNI validado correctamente: B95532578",
+            "Email correcto: trafico@plpsagunto.com",
+            "Cuenta de usuario-conductor ya existe: B95532578",
+            "Actualizado usuario-conductor: B95532578",
+            "IdUsuarioTransportista - Transportista: 48",
+            "Actualizado Transportista: B95532578",
+            "Detectado tipo de transporte: C",
+            "MATRICULA validada correctamente: EMTU0451516",
+            "PRECINTO validado correctamente: 0095461",
+            "El primer lugar de carga es: ECOPLAS",
+            "Editando orden: 33989800",
+            "TIPO  C -> ACTUALIZANDO viaje: 103398980001",
+            "Orden insertada en la BD: 339898",
+            "Archivo movido exitosamente a \/var\/www\/html\/leader\/logistica\/view\/Ordenes\/descargas_procesados\/20250611\/33989800.json"
+        ]
+    },
+    {
+        "nombre_archivo": "33993301.json",
+        "procesado": true,
+        "errores": [
+            "MATRICULA no esta definida o esta vacia.",
+            "PRECINTO no esta definido o esta vacio."
+        ],
+        "detalles": [
+            "DNI validado correctamente: IT05346880650",
+            "Email correcto: geminitrasporti@libero.it",
+            "Cuenta de usuario-conductor ya existe: IT05346880650",
+            "Actualizado usuario-conductor: IT05346880650",
+            "IdUsuarioTransportista - Transportista: 41",
+            "Actualizado Transportista: IT05346880650",
+            "Detectado tipo de transporte: M",
+            "El primer lugar de carga es: PARKING GEMINI",
+            "Editando orden: 33993301",
+            "TIPO T-M -> ACTUALIZANDO VIAJE LUGARES_CARGA: 103399330101",
+            "Orden insertada en la BD: 339933\/1",
+            "Archivo movido exitosamente a \/var\/www\/html\/leader\/logistica\/view\/Ordenes\/descargas_procesados\/20250611\/33993301.json"
+        ]
+    },
+    {
+        "nombre_archivo": "33993303.json",
+        "procesado": true,
+        "errores": [
+            "MATRICULA no esta definida o esta vacia.",
+            "PRECINTO no esta definido o esta vacio."
+        ],
+        "detalles": [
+            "DNI validado correctamente: X8330591Z",
+            "Email correcto: ciprian.aurel.leader@gmail.com",
+            "Cuenta de usuario-conductor ya existe: X8330591Z",
+            "Actualizado usuario-conductor: X8330591Z",
+            "IdUsuarioTransportista - Transportista: 52",
+            "Actualizado Transportista: X8330591Z",
+            "Detectado tipo de transporte: M",
+            "El primer lugar de carga es: SAGUNTO",
+            "Editando orden: 33993303",
+            "TIPO T-M -> ACTUALIZANDO VIAJE LUGARES_CARGA: 203399330301",
+            "TIPO T-M -> ACTUALIZANDO VIAJE LUGARES_CARGA: 203399330302",
+            "TIPO T-M -> ACTUALIZANDO VIAJE LUGARES_CARGA: 203399330303",
+            "Orden insertada en la BD: 339933\/3",
+            "Archivo movido exitosamente a \/var\/www\/html\/leader\/logistica\/view\/Ordenes\/descargas_procesados\/20250611\/33993303.json"
+        ]
+    },
+    {
+        "nombre_archivo": "33993304.json",
+        "procesado": true,
+        "errores": [
+            "MATRICULA no esta definida o esta vacia.",
+            "PRECINTO no esta definido o esta vacio."
+        ],
+        "detalles": [
+            "DNI validado correctamente: X8330591Z",
+            "Email correcto: ciprian.aurel.leader@gmail.com",
+            "Cuenta de usuario-conductor ya existe: X8330591Z",
+            "Actualizado usuario-conductor: X8330591Z",
+            "IdUsuarioTransportista - Transportista: 52",
+            "Actualizado Transportista: X8330591Z",
+            "Detectado tipo de transporte: M",
+            "El primer lugar de carga es: ROTA",
+            "Editando orden: 33993304",
+            "Orden insertada en la BD: 339933\/4",
+            "Archivo movido exitosamente a \/var\/www\/html\/leader\/logistica\/view\/Ordenes\/descargas_procesados\/20250611\/33993304.json"
+        ]
+    },
+    {
+        "nombre_archivo": "33993305.json",
+        "procesado": true,
+        "errores": [
+            "MATRICULA no esta definida o esta vacia.",
+            "PRECINTO no esta definido o esta vacio."
+        ],
+        "detalles": [
+            "DNI validado correctamente: 71219972N",
+            "Email correcto: joseignacioosanchez@gmail.com",
+            "Cuenta de usuario-conductor ya existe: 71219972N",
+            "Actualizado usuario-conductor: 71219972N",
+            "IdUsuarioTransportista - Transportista: 45",
+            "Actualizado Transportista: 71219972N",
+            "Detectado tipo de transporte: M",
+            "El primer lugar de carga es: PARKING LEADER",
+            "Editando orden: 33993305",
+            "TIPO T-M -> ACTUALIZANDO VIAJE LUGARES_CARGA: 203399330501",
+            "TIPO T-M -> ACTUALIZANDO VIAJE LUGARES_CARGA: 203399330503",
+            "Orden insertada en la BD: 339933\/5",
+            "Archivo movido exitosamente a \/var\/www\/html\/leader\/logistica\/view\/Ordenes\/descargas_procesados\/20250611\/33993305.json"
+        ]
+    },
+    {
+        "nombre_archivo": "33993900.json",
+        "procesado": true,
+        "errores": [],
+        "detalles": [
+            "DNI validado correctamente: X8330591Z",
+            "Email correcto: ciprian.aurel.leader@gmail.com",
+            "Cuenta de usuario-conductor ya existe: X8330591Z",
+            "Actualizado usuario-conductor: X8330591Z",
+            "IdUsuarioTransportista - Transportista: 52",
+            "Actualizado Transportista: X8330591Z",
+            "Detectado tipo de transporte: C",
+            "MATRICULA validada correctamente: SKYU8812370",
+            "PRECINTO validado correctamente: E158759",
+            "El primer lugar de carga es: TALLERES CEMENG",
+            "Editando orden: 33993900",
+            "TIPO  C -> ACTUALIZANDO viaje: 103399390001",
+            "Orden insertada en la BD: 339939",
+            "Archivo movido exitosamente a \/var\/www\/html\/leader\/logistica\/view\/Ordenes\/descargas_procesados\/20250611\/33993900.json"
+        ]
+    },
+    {
+        "nombre_archivo": "33995500.json",
+        "procesado": true,
+        "errores": [],
+        "detalles": [
+            "DNI validado correctamente: X8330591Z",
+            "Email correcto: ciprian.aurel.leader@gmail.com",
+            "Cuenta de usuario-conductor ya existe: X8330591Z",
+            "Actualizado usuario-conductor: X8330591Z",
+            "IdUsuarioTransportista - Transportista: 52",
+            "Actualizado Transportista: X8330591Z",
+            "Detectado tipo de transporte: C",
+            "MATRICULA validada correctamente: SKYU8812370",
+            "PRECINTO validado correctamente: E158759+736088",
+            "El primer lugar de carga es: TALLERES CEMENG",
+            "Editando orden: 33995500",
+            "TIPO  C -> ACTUALIZANDO viaje: 103399550001",
+            "Orden insertada en la BD: 339955",
+            "Archivo movido exitosamente a \/var\/www\/html\/leader\/logistica\/view\/Ordenes\/descargas_procesados\/20250611\/33995500.json"
+        ]
+    },
+    {
+        "nombre_archivo": "33996501.json",
+        "procesado": true,
+        "errores": [
+            "MATRICULA no esta definida o esta vacia.",
+            "PRECINTO no esta definido o esta vacio."
+        ],
+        "detalles": [
+            "DNI validado correctamente: X3611338Q",
+            "Email correcto: madalintudose700@gmail.com",
+            "Cuenta de usuario-conductor ya existe: X3611338Q",
+            "Actualizado usuario-conductor: X3611338Q",
+            "IdUsuarioTransportista - Transportista: 56",
+            "Actualizado Transportista: X3611338Q",
+            "Detectado tipo de transporte: M",
+            "El primer lugar de carga es: AZAMBUJA",
+            "Editando orden: 33996501",
+            "TIPO T-M -> ACTUALIZANDO VIAJE LUGARES_CARGA: 103399650101",
+            "TIPO T-M -> ACTUALIZANDO VIAJE LUGARES_CARGA: 203399650101",
+            "Orden insertada en la BD: 339965\/1",
+            "Archivo movido exitosamente a \/var\/www\/html\/leader\/logistica\/view\/Ordenes\/descargas_procesados\/20250611\/33996501.json"
+        ]
+    },
+    {
+        "nombre_archivo": "33996601.json",
+        "procesado": true,
+        "errores": [
+            "MATRICULA no esta definida o esta vacia.",
+            "PRECINTO no esta definido o esta vacio."
+        ],
+        "detalles": [
+            "DNI validado correctamente: X8330591Z",
+            "Email correcto: ciprian.aurel.leader@gmail.com",
+            "Cuenta de usuario-conductor ya existe: X8330591Z",
+            "Actualizado usuario-conductor: X8330591Z",
+            "IdUsuarioTransportista - Transportista: 52",
+            "Actualizado Transportista: X8330591Z",
+            "Detectado tipo de transporte: M",
+            "El primer lugar de carga es: PARKING LEADER",
+            "Editando orden: 33996601",
+            "TIPO T-M -> ACTUALIZANDO VIAJE LUGARES_CARGA: 103399660101",
+            "Orden insertada en la BD: 339966\/1",
+            "Archivo movido exitosamente a \/var\/www\/html\/leader\/logistica\/view\/Ordenes\/descargas_procesados\/20250611\/33996601.json"
+        ]
+    },
+    {
+        "nombre_archivo": "33996603.json",
+        "procesado": true,
+        "errores": [
+            "MATRICULA no esta definida o esta vacia.",
+            "PRECINTO no esta definido o esta vacio."
+        ],
+        "detalles": [
+            "DNI validado correctamente: IT05346880650",
+            "Email correcto: geminitrasporti@libero.it",
+            "Cuenta de usuario-conductor ya existe: IT05346880650",
+            "Actualizado usuario-conductor: IT05346880650",
+            "IdUsuarioTransportista - Transportista: 41",
+            "Actualizado Transportista: IT05346880650",
+            "Detectado tipo de transporte: M",
+            "El primer lugar de carga es: PORTO SALERNO",
+            "Editando orden: 33996603",
+            "TIPO T-M -> ACTUALIZANDO VIAJE LUGARES_CARGA: 203399660301",
+            "TIPO T-M -> ACTUALIZANDO VIAJE LUGARES_CARGA: 203399660302",
+            "Orden insertada en la BD: 339966\/3",
+            "Archivo movido exitosamente a \/var\/www\/html\/leader\/logistica\/view\/Ordenes\/descargas_procesados\/20250611\/33996603.json"
+        ]
+    },
+    {
+        "nombre_archivo": "34003500.json",
+        "procesado": true,
+        "errores": [
+            "MATRICULA no esta definida o esta vacia."
+        ],
+        "detalles": [
+            "DNI validado correctamente: 19888745R",
+            "Email correcto: corcamion11@gmail.com",
+            "Cuenta de usuario-conductor ya existe: 19888745R",
+            "Actualizado usuario-conductor: 19888745R",
+            "IdUsuarioTransportista - Transportista: 51",
+            "Actualizado Transportista: 19888745R",
+            "Detectado tipo de transporte: C",
+            "PRECINTO validado correctamente: 23281602",
+            "El primer lugar de carga es: SEDATRANS.",
+            "Editando orden: 34003500",
+            "TIPO  C -> ACTUALIZANDO viaje: 103400350001",
+            "Orden insertada en la BD: 340035",
+            "Archivo movido exitosamente a \/var\/www\/html\/leader\/logistica\/view\/Ordenes\/descargas_procesados\/20250611\/34003500.json"
+        ]
+    },
+    {
+        "nombre_archivo": "34003600.json",
+        "procesado": true,
+        "errores": [
+            "MATRICULA no esta definida o esta vacia."
+        ],
+        "detalles": [
+            "DNI validado correctamente: 20449912Z",
+            "Email correcto: jc_dernis@hotmail.com",
+            "Cuenta de usuario-conductor ya existe: 20449912Z",
+            "Actualizado usuario-conductor: 20449912Z",
+            "IdUsuarioTransportista - Transportista: 49",
+            "Actualizado Transportista: 20449912Z",
+            "Detectado tipo de transporte: C",
+            "PRECINTO validado correctamente: 23281603",
+            "El primer lugar de carga es: SEDATRANS.",
+            "Editando orden: 34003600",
+            "TIPO  C -> ACTUALIZANDO viaje: 103400360001",
+            "Orden insertada en la BD: 340036",
+            "Archivo movido exitosamente a \/var\/www\/html\/leader\/logistica\/view\/Ordenes\/descargas_procesados\/20250611\/34003600.json"
+        ]
+    },
+    {
+        "nombre_archivo": "34003901.json",
+        "procesado": true,
+        "errores": [
+            "MATRICULA no esta definida o esta vacia.",
+            "PRECINTO no esta definido o esta vacio."
+        ],
+        "detalles": [
+            "DNI validado correctamente: 24236936L",
+            "Email correcto: afh3can@gmail.com",
+            "Cuenta de usuario-conductor ya existe: 24236936L",
+            "Actualizado usuario-conductor: 24236936L",
+            "IdUsuarioTransportista - Transportista: 57",
+            "Actualizado Transportista: 24236936L",
+            "Detectado tipo de transporte: M",
+            "El primer lugar de carga es: TODIJUSE",
+            "Editando orden: 34003901",
+            "TIPO T-M -> ACTUALIZANDO VIAJE LUGARES_CARGA: 103400390101",
+            "Orden insertada en la BD: 340039\/1",
+            "Archivo movido exitosamente a \/var\/www\/html\/leader\/logistica\/view\/Ordenes\/descargas_procesados\/20250611\/34003901.json"
+        ]
+    },
+    {
+        "nombre_archivo": "34003903.json",
+        "procesado": true,
+        "errores": [
+            "MATRICULA no esta definida o esta vacia.",
+            "PRECINTO no esta definido o esta vacio."
+        ],
+        "detalles": [
+            "DNI validado correctamente: IT05346880650",
+            "Email correcto: geminitrasporti@libero.it",
+            "Cuenta de usuario-conductor ya existe: IT05346880650",
+            "Actualizado usuario-conductor: IT05346880650",
+            "IdUsuarioTransportista - Transportista: 41",
+            "Actualizado Transportista: IT05346880650",
+            "Detectado tipo de transporte: M",
+            "El primer lugar de carga es: PORTO SALERNO",
+            "Editando orden: 34003903",
+            "TIPO T-M -> ACTUALIZANDO VIAJE LUGARES_CARGA: 203400390301",
+            "Orden insertada en la BD: 340039\/3",
+            "Archivo movido exitosamente a \/var\/www\/html\/leader\/logistica\/view\/Ordenes\/descargas_procesados\/20250611\/34003903.json"
+        ]
+    },
+    {
+        "nombre_archivo": "34004201.json",
+        "procesado": true,
+        "errores": [
+            "MATRICULA no esta definida o esta vacia.",
+            "PRECINTO no esta definido o esta vacio."
+        ],
+        "detalles": [
+            "DNI validado correctamente: X8330591Z",
+            "Email correcto: ciprian.aurel.leader@gmail.com",
+            "Cuenta de usuario-conductor ya existe: X8330591Z",
+            "Actualizado usuario-conductor: X8330591Z",
+            "IdUsuarioTransportista - Transportista: 52",
+            "Actualizado Transportista: X8330591Z",
+            "Detectado tipo de transporte: M",
+            "El primer lugar de carga es: RFL CARGO (ALBU",
+            "Editando orden: 34004201",
+            "Orden insertada en la BD: 340042\/1",
+            "Archivo movido exitosamente a \/var\/www\/html\/leader\/logistica\/view\/Ordenes\/descargas_procesados\/20250611\/34004201.json"
+        ]
+    },
+    {
+        "nombre_archivo": "34004202.json",
+        "procesado": true,
+        "errores": [
+            "MATRICULA no esta definida o esta vacia.",
+            "PRECINTO no esta definido o esta vacio."
+        ],
+        "detalles": [
+            "DNI validado correctamente: 71219972N",
+            "Email correcto: joseignacioosanchez@gmail.com",
+            "Cuenta de usuario-conductor ya existe: 71219972N",
+            "Actualizado usuario-conductor: 71219972N",
+            "IdUsuarioTransportista - Transportista: 45",
+            "Actualizado Transportista: 71219972N",
+            "Detectado tipo de transporte: M",
+            "El primer lugar de carga es: PARKING LEADER",
+            "Editando orden: 34004202",
+            "TIPO T-M -> ACTUALIZANDO VIAJE LUGARES_CARGA: 203400420201",
+            "Orden insertada en la BD: 340042\/2",
+            "Archivo movido exitosamente a \/var\/www\/html\/leader\/logistica\/view\/Ordenes\/descargas_procesados\/20250611\/34004202.json"
+        ]
+    },
+    {
+        "nombre_archivo": "34005601.json",
+        "procesado": true,
+        "errores": [
+            "MATRICULA no esta definida o esta vacia.",
+            "PRECINTO no esta definido o esta vacio."
+        ],
+        "detalles": [
+            "DNI validado correctamente: IT05346880650",
+            "Email correcto: geminitrasporti@libero.it",
+            "Cuenta de usuario-conductor ya existe: IT05346880650",
+            "Actualizado usuario-conductor: IT05346880650",
+            "IdUsuarioTransportista - Transportista: 41",
+            "Actualizado Transportista: IT05346880650",
+            "Detectado tipo de transporte: M",
+            "El primer lugar de carga es: CURCIO TRASPORT",
+            "Editando orden: 34005601",
+            "TIPO T-M -> ACTUALIZANDO VIAJE LUGARES_CARGA: 103400560101",
+            "Orden insertada en la BD: 340056\/1",
+            "Archivo movido exitosamente a \/var\/www\/html\/leader\/logistica\/view\/Ordenes\/descargas_procesados\/20250611\/34005601.json"
+        ]
+    },
+    {
+        "nombre_archivo": "34012701.json",
+        "procesado": true,
+        "errores": [
+            "MATRICULA no esta definida o esta vacia.",
+            "PRECINTO no esta definido o esta vacio."
+        ],
+        "detalles": [
+            "DNI validado correctamente: X3611338Q",
+            "Email correcto: madalintudose700@gmail.com",
+            "Cuenta de usuario-conductor ya existe: X3611338Q",
+            "Actualizado usuario-conductor: X3611338Q",
+            "IdUsuarioTransportista - Transportista: 56",
+            "Actualizado Transportista: X3611338Q",
+            "Detectado tipo de transporte: M",
+            "El primer lugar de carga es: TRASMED",
+            "Editando orden: 34012701",
+            "TIPO T-M -> ACTUALIZANDO VIAJE LUGARES_CARGA: 103401270101",
+            "Orden insertada en la BD: 340127\/1",
+            "Archivo movido exitosamente a \/var\/www\/html\/leader\/logistica\/view\/Ordenes\/descargas_procesados\/20250611\/34012701.json"
+        ]
+    },
+    {
+        "nombre_archivo": "34012703.json",
+        "procesado": true,
+        "errores": [
+            "MATRICULA no esta definida o esta vacia.",
+            "PRECINTO no esta definido o esta vacio."
+        ],
+        "detalles": [
+            "DNI validado correctamente: IT05346880650",
+            "Email correcto: geminitrasporti@libero.it",
+            "Cuenta de usuario-conductor ya existe: IT05346880650",
+            "Actualizado usuario-conductor: IT05346880650",
+            "IdUsuarioTransportista - Transportista: 41",
+            "Actualizado Transportista: IT05346880650",
+            "Detectado tipo de transporte: M",
+            "El primer lugar de carga es: PORTO SALERNO",
+            "Editando orden: 34012703",
+            "TIPO T-M -> ACTUALIZANDO VIAJE LUGARES_CARGA: 203401270301",
+            "Orden insertada en la BD: 340127\/3",
+            "Archivo movido exitosamente a \/var\/www\/html\/leader\/logistica\/view\/Ordenes\/descargas_procesados\/20250611\/34012703.json"
+        ]
+    },
+    {
+        "nombre_archivo": "34014001.json",
+        "procesado": true,
+        "errores": [
+            "MATRICULA no esta definida o esta vacia.",
+            "PRECINTO no esta definido o esta vacio."
+        ],
+        "detalles": [
+            "DNI validado correctamente: X4211879G",
+            "Email correcto: leadertransport25@gmail.com",
+            "Cuenta de usuario-conductor ya existe: X4211879G",
+            "Actualizado usuario-conductor: X4211879G",
+            "IdUsuarioTransportista - Transportista: 55",
+            "Actualizado Transportista: X4211879G",
+            "Detectado tipo de transporte: M",
+            "El primer lugar de carga es: NICOLAU&ROSA",
+            "Editando orden: 34014001",
+            "TIPO T-M -> ACTUALIZANDO VIAJE LUGARES_CARGA: 103401400101",
+            "Orden insertada en la BD: 340140\/1",
+            "Archivo movido exitosamente a \/var\/www\/html\/leader\/logistica\/view\/Ordenes\/descargas_procesados\/20250611\/34014001.json"
+        ]
+    },
+    {
+        "nombre_archivo": "34017201.json",
+        "procesado": true,
+        "errores": [
+            "MATRICULA no esta definida o esta vacia.",
+            "PRECINTO no esta definido o esta vacio."
+        ],
+        "detalles": [
+            "DNI validado correctamente: 24236936L",
+            "Email correcto: afh3can@gmail.com",
+            "Cuenta de usuario-conductor ya existe: 24236936L",
+            "Actualizado usuario-conductor: 24236936L",
+            "IdUsuarioTransportista - Transportista: 57",
+            "Actualizado Transportista: 24236936L",
+            "Detectado tipo de transporte: M",
+            "El primer lugar de carga es: PARKING LEADER",
+            "Editando orden: 34017201",
+            "TIPO T-M -> ACTUALIZANDO VIAJE LUGARES_CARGA: 103401720101",
+            "Orden insertada en la BD: 340172\/1",
+            "Archivo movido exitosamente a \/var\/www\/html\/leader\/logistica\/view\/Ordenes\/descargas_procesados\/20250611\/34017201.json"
+        ]
+    },
+    {
+        "nombre_archivo": "34017203.json",
+        "procesado": true,
+        "errores": [
+            "MATRICULA no esta definida o esta vacia.",
+            "PRECINTO no esta definido o esta vacio."
+        ],
+        "detalles": [
+            "DNI validado correctamente: IT05346880650",
+            "Email correcto: geminitrasporti@libero.it",
+            "Cuenta de usuario-conductor ya existe: IT05346880650",
+            "Actualizado usuario-conductor: IT05346880650",
+            "IdUsuarioTransportista - Transportista: 41",
+            "Actualizado Transportista: IT05346880650",
+            "Detectado tipo de transporte: M",
+            "El primer lugar de carga es: PORTO SALERNO",
+            "Editando orden: 34017203",
+            "TIPO T-M -> ACTUALIZANDO VIAJE LUGARES_CARGA: 203401720301",
+            "TIPO T-M -> ACTUALIZANDO VIAJE LUGARES_CARGA: 203401720302",
+            "Orden insertada en la BD: 340172\/3",
+            "Archivo movido exitosamente a \/var\/www\/html\/leader\/logistica\/view\/Ordenes\/descargas_procesados\/20250611\/34017203.json"
+        ]
+    },
+    {
+        "nombre_archivo": "34017401.json",
+        "procesado": true,
+        "errores": [
+            "MATRICULA no esta definida o esta vacia.",
+            "PRECINTO no esta definido o esta vacio."
+        ],
+        "detalles": [
+            "DNI validado correctamente: IT05346880650",
+            "Email correcto: geminitrasporti@libero.it",
+            "Cuenta de usuario-conductor ya existe: IT05346880650",
+            "Actualizado usuario-conductor: IT05346880650",
+            "IdUsuarioTransportista - Transportista: 41",
+            "Actualizado Transportista: IT05346880650",
+            "Detectado tipo de transporte: M",
+            "El primer lugar de carga es: PARKING GEMINI",
+            "Editando orden: 34017401",
+            "TIPO T-M -> ACTUALIZANDO VIAJE LUGARES_CARGA: 103401740101",
+            "Orden insertada en la BD: 340174\/1",
+            "Archivo movido exitosamente a \/var\/www\/html\/leader\/logistica\/view\/Ordenes\/descargas_procesados\/20250611\/34017401.json"
+        ]
+    },
+    {
+        "nombre_archivo": "34017403.json",
+        "procesado": true,
+        "errores": [
+            "MATRICULA no esta definida o esta vacia.",
+            "PRECINTO no esta definido o esta vacio."
+        ],
+        "detalles": [
+            "DNI validado correctamente: 24236936L",
+            "Email correcto: afh3can@gmail.com",
+            "Cuenta de usuario-conductor ya existe: 24236936L",
+            "Actualizado usuario-conductor: 24236936L",
+            "IdUsuarioTransportista - Transportista: 57",
+            "Actualizado Transportista: 24236936L",
+            "Detectado tipo de transporte: M",
+            "El primer lugar de carga es: SAGUNTO",
+            "Editando orden: 34017403",
+            "TIPO T-M -> ACTUALIZANDO VIAJE LUGARES_CARGA: 203401740301",
+            "Orden insertada en la BD: 340174\/3",
+            "Archivo movido exitosamente a \/var\/www\/html\/leader\/logistica\/view\/Ordenes\/descargas_procesados\/20250611\/34017403.json"
+        ]
+    },
+    {
+        "nombre_archivo": "34017701.json",
+        "procesado": true,
+        "errores": [
+            "MATRICULA no esta definida o esta vacia.",
+            "PRECINTO no esta definido o esta vacio."
+        ],
+        "detalles": [
+            "DNI validado correctamente: IT05346880650",
+            "Email correcto: geminitrasporti@libero.it",
+            "Cuenta de usuario-conductor ya existe: IT05346880650",
+            "Actualizado usuario-conductor: IT05346880650",
+            "IdUsuarioTransportista - Transportista: 41",
+            "Actualizado Transportista: IT05346880650",
+            "Detectado tipo de transporte: M",
+            "El primer lugar de carga es: PARKING GEMINI",
+            "Editando orden: 34017701",
+            "TIPO T-M -> ACTUALIZANDO VIAJE LUGARES_CARGA: 103401770101",
+            "Orden insertada en la BD: 340177\/1",
+            "Archivo movido exitosamente a \/var\/www\/html\/leader\/logistica\/view\/Ordenes\/descargas_procesados\/20250611\/34017701.json"
+        ]
+    },
+    {
+        "nombre_archivo": "34017703.json",
+        "procesado": true,
+        "errores": [
+            "MATRICULA no esta definida o esta vacia.",
+            "PRECINTO no esta definido o esta vacio."
+        ],
+        "detalles": [
+            "DNI validado correctamente: X3611338Q",
+            "Email correcto: madalintudose700@gmail.com",
+            "Cuenta de usuario-conductor ya existe: X3611338Q",
+            "Actualizado usuario-conductor: X3611338Q",
+            "IdUsuarioTransportista - Transportista: 56",
+            "Actualizado Transportista: X3611338Q",
+            "Detectado tipo de transporte: M",
+            "El primer lugar de carga es: SAGUNTO",
+            "Editando orden: 34017703",
+            "TIPO T-M -> ACTUALIZANDO VIAJE LUGARES_CARGA: 203401770301",
+            "TIPO T-M -> ACTUALIZANDO VIAJE LUGARES_CARGA: 203401770302",
+            "Orden insertada en la BD: 340177\/3",
+            "Archivo movido exitosamente a \/var\/www\/html\/leader\/logistica\/view\/Ordenes\/descargas_procesados\/20250611\/34017703.json"
+        ]
+    },
+    {
+        "nombre_archivo": "34018400.json",
+        "procesado": true,
+        "errores": [],
+        "detalles": [
+            "DNI validado correctamente: B95532578",
+            "Email correcto: trafico@plpsagunto.com",
+            "Cuenta de usuario-conductor ya existe: B95532578",
+            "Actualizado usuario-conductor: B95532578",
+            "IdUsuarioTransportista - Transportista: 48",
+            "Actualizado Transportista: B95532578",
+            "Detectado tipo de transporte: C",
+            "MATRICULA validada correctamente: EMTU0450675",
+            "PRECINTO validado correctamente: 018785",
+            "El primer lugar de carga es: ECOPLAS",
+            "Editando orden: 34018400",
+            "TIPO  C -> ACTUALIZANDO viaje: 103401840001",
+            "Orden insertada en la BD: 340184",
+            "Archivo movido exitosamente a \/var\/www\/html\/leader\/logistica\/view\/Ordenes\/descargas_procesados\/20250611\/34018400.json"
+        ]
+    },
+    {
+        "nombre_archivo": "34019701.json",
+        "procesado": true,
+        "errores": [
+            "MATRICULA no esta definida o esta vacia.",
+            "PRECINTO no esta definido o esta vacio."
+        ],
+        "detalles": [
+            "DNI validado correctamente: X4211879G",
+            "Email correcto: leadertransport25@gmail.com",
+            "Cuenta de usuario-conductor ya existe: X4211879G",
+            "Actualizado usuario-conductor: X4211879G",
+            "IdUsuarioTransportista - Transportista: 55",
+            "Actualizado Transportista: X4211879G",
+            "Detectado tipo de transporte: M",
+            "El primer lugar de carga es: PARKING LEADER",
+            "Editando orden: 34019701",
+            "TIPO T-M -> ACTUALIZANDO VIAJE LUGARES_CARGA: 103401970101",
+            "Orden insertada en la BD: 340197\/1",
+            "Archivo movido exitosamente a \/var\/www\/html\/leader\/logistica\/view\/Ordenes\/descargas_procesados\/20250611\/34019701.json"
+        ]
+    },
+    {
+        "nombre_archivo": "34019703.json",
+        "procesado": true,
+        "errores": [
+            "MATRICULA no esta definida o esta vacia.",
+            "PRECINTO no esta definido o esta vacio."
+        ],
+        "detalles": [
+            "DNI validado correctamente: IT05346880650",
+            "Email correcto: geminitrasporti@libero.it",
+            "Cuenta de usuario-conductor ya existe: IT05346880650",
+            "Actualizado usuario-conductor: IT05346880650",
+            "IdUsuarioTransportista - Transportista: 41",
+            "Actualizado Transportista: IT05346880650",
+            "Detectado tipo de transporte: M",
+            "El primer lugar de carga es: PORTO SALERNO",
+            "Editando orden: 34019703",
+            "TIPO T-M -> ACTUALIZANDO VIAJE LUGARES_CARGA: 203401970301",
+            "TIPO T-M -> ACTUALIZANDO VIAJE LUGARES_CARGA: 203401970302",
+            "Orden insertada en la BD: 340197\/3",
+            "Archivo movido exitosamente a \/var\/www\/html\/leader\/logistica\/view\/Ordenes\/descargas_procesados\/20250611\/34019703.json"
+        ]
+    },
+    {
+        "nombre_archivo": "34022101.json",
+        "procesado": true,
+        "errores": [
+            "MATRICULA no esta definida o esta vacia.",
+            "PRECINTO no esta definido o esta vacio."
+        ],
+        "detalles": [
+            "DNI validado correctamente: IT05346880650",
+            "Email correcto: geminitrasporti@libero.it",
+            "Cuenta de usuario-conductor ya existe: IT05346880650",
+            "Actualizado usuario-conductor: IT05346880650",
+            "IdUsuarioTransportista - Transportista: 41",
+            "Actualizado Transportista: IT05346880650",
+            "Detectado tipo de transporte: M",
+            "El primer lugar de carga es: PARKING GEMINI",
+            "Editando orden: 34022101",
+            "TIPO T-M -> ACTUALIZANDO VIAJE LUGARES_CARGA: 103402210101",
+            "Orden insertada en la BD: 340221\/1",
+            "Archivo movido exitosamente a \/var\/www\/html\/leader\/logistica\/view\/Ordenes\/descargas_procesados\/20250611\/34022101.json"
+        ]
+    },
+    {
+        "nombre_archivo": "34022103.json",
+        "procesado": true,
+        "errores": [
+            "MATRICULA no esta definida o esta vacia.",
+            "PRECINTO no esta definido o esta vacio."
+        ],
+        "detalles": [
+            "DNI validado correctamente: 71219972N",
+            "Email correcto: joseignacioosanchez@gmail.com",
+            "Cuenta de usuario-conductor ya existe: 71219972N",
+            "Actualizado usuario-conductor: 71219972N",
+            "IdUsuarioTransportista - Transportista: 45",
+            "Actualizado Transportista: 71219972N",
+            "Detectado tipo de transporte: M",
+            "El primer lugar de carga es: SAGUNTO",
+            "Editando orden: 34022103",
+            "TIPO T-M -> ACTUALIZANDO VIAJE LUGARES_CARGA: 203402210301",
+            "Orden insertada en la BD: 340221\/3",
+            "Archivo movido exitosamente a \/var\/www\/html\/leader\/logistica\/view\/Ordenes\/descargas_procesados\/20250611\/34022103.json"
+        ]
+    },
+    {
+        "nombre_archivo": "34023701.json",
+        "procesado": true,
+        "errores": [
+            "MATRICULA no esta definida o esta vacia.",
+            "PRECINTO no esta definido o esta vacio."
+        ],
+        "detalles": [
+            "DNI validado correctamente: X3611338Q",
+            "Email correcto: madalintudose700@gmail.com",
+            "Cuenta de usuario-conductor ya existe: X3611338Q",
+            "Actualizado usuario-conductor: X3611338Q",
+            "IdUsuarioTransportista - Transportista: 56",
+            "Actualizado Transportista: X3611338Q",
+            "Detectado tipo de transporte: M",
+            "El primer lugar de carga es: LEGAZPIA",
+            "Editando orden: 34023701",
+            "TIPO T-M -> ACTUALIZANDO VIAJE LUGARES_CARGA: 103402370101",
+            "Orden insertada en la BD: 340237\/1",
+            "Archivo movido exitosamente a \/var\/www\/html\/leader\/logistica\/view\/Ordenes\/descargas_procesados\/20250611\/34023701.json"
+        ]
+    },
+    {
+        "nombre_archivo": "34290400.json",
+        "procesado": true,
+        "errores": [],
+        "detalles": [
+            "DNI validado correctamente: B12885968",
+            "Email correcto: trafico@transluz2012.com",
+            "Cuenta de usuario-conductor ya existe: B12885968",
+            "Actualizado usuario-conductor: B12885968",
+            "IdUsuarioTransportista - Transportista: 66",
+            "Actualizado Transportista: B12885968",
+            "Detectado tipo de transporte: C",
+            "MATRICULA validada correctamente: MCLU3622592",
+            "PRECINTO validado correctamente: 00218001",
+            "El primer lugar de carga es: SAROSA ALMACENE",
+            "Editando orden: 34290400",
+            "TIPO  C -> ACTUALIZANDO viaje: 103429040001",
+            "Orden insertada en la BD: 342904",
+            "Archivo movido exitosamente a \/var\/www\/html\/leader\/logistica\/view\/Ordenes\/descargas_procesados\/20250611\/34290400.json"
+        ]
+    },
+    {
+        "nombre_archivo": "34297100.json",
+        "procesado": true,
+        "errores": [],
+        "detalles": [
+            "DNI validado correctamente: B12885968",
+            "Email correcto: trafico@transluz2012.com",
+            "Cuenta de usuario-conductor ya existe: B12885968",
+            "Actualizado usuario-conductor: B12885968",
+            "IdUsuarioTransportista - Transportista: 66",
+            "Actualizado Transportista: B12885968",
+            "Detectado tipo de transporte: C",
+            "MATRICULA validada correctamente: MCLU5084285",
+            "PRECINTO validado correctamente: 00218002",
+            "El primer lugar de carga es: INFRICO MEDCARE",
+            "Editando orden: 34297100",
+            "TIPO  C -> ACTUALIZANDO viaje: 103429710001",
+            "Orden insertada en la BD: 342971",
+            "Archivo movido exitosamente a \/var\/www\/html\/leader\/logistica\/view\/Ordenes\/descargas_procesados\/20250611\/34297100.json"
+        ]
+    },
+    {
+        "nombre_archivo": "34298800.json",
+        "procesado": true,
+        "errores": [],
+        "detalles": [
+            "DNI validado correctamente: B12885968",
+            "Email correcto: trafico@transluz2012.com",
+            "Cuenta de usuario-conductor ya existe: B12885968",
+            "Actualizado usuario-conductor: B12885968",
+            "IdUsuarioTransportista - Transportista: 66",
+            "Actualizado Transportista: B12885968",
+            "Detectado tipo de transporte: C",
+            "MATRICULA validada correctamente: BORU7016216",
+            "PRECINTO validado correctamente: 00218007",
+            "El primer lugar de carga es: SAROSA ALMACENE",
+            "Editando orden: 34298800",
+            "TIPO  C -> ACTUALIZANDO viaje: 103429880001",
+            "Orden insertada en la BD: 342988",
+            "Archivo movido exitosamente a \/var\/www\/html\/leader\/logistica\/view\/Ordenes\/descargas_procesados\/20250611\/34298800.json"
+        ]
+    },
+    {
+        "nombre_archivo": "34305400.json",
+        "procesado": true,
+        "errores": [],
+        "detalles": [
+            "DNI validado correctamente: B12885968",
+            "Email correcto: trafico@transluz2012.com",
+            "Cuenta de usuario-conductor ya existe: B12885968",
+            "Actualizado usuario-conductor: B12885968",
+            "IdUsuarioTransportista - Transportista: 66",
+            "Actualizado Transportista: B12885968",
+            "Detectado tipo de transporte: C",
+            "MATRICULA validada correctamente: MCLU5070764",
+            "PRECINTO validado correctamente: 00218009",
+            "El primer lugar de carga es: TORRES ESPIC",
+            "Editando orden: 34305400",
+            "TIPO  C -> ACTUALIZANDO viaje: 103430540001",
+            "Orden insertada en la BD: 343054",
+            "Archivo movido exitosamente a \/var\/www\/html\/leader\/logistica\/view\/Ordenes\/descargas_procesados\/20250611\/34305400.json"
+        ]
+    },
+    {
+        "nombre_archivo": "34305600.json",
+        "procesado": true,
+        "errores": [],
+        "detalles": [
+            "DNI validado correctamente: B12885968",
+            "Email correcto: trafico@transluz2012.com",
+            "Cuenta de usuario-conductor ya existe: B12885968",
+            "Actualizado usuario-conductor: B12885968",
+            "IdUsuarioTransportista - Transportista: 66",
+            "Actualizado Transportista: B12885968",
+            "Detectado tipo de transporte: C",
+            "MATRICULA validada correctamente: MCLU5110044",
+            "PRECINTO validado correctamente: 00218005",
+            "El primer lugar de carga es: INFRICO MEDCARE",
+            "Editando orden: 34305600",
+            "TIPO  C -> ACTUALIZANDO viaje: 103430560001",
+            "Orden insertada en la BD: 343056",
+            "Archivo movido exitosamente a \/var\/www\/html\/leader\/logistica\/view\/Ordenes\/descargas_procesados\/20250611\/34305600.json"
+        ]
+    },
+    {
+        "nombre_archivo": "34305700.json",
+        "procesado": true,
+        "errores": [],
+        "detalles": [
+            "DNI validado correctamente: B12885968",
+            "Email correcto: trafico@transluz2012.com",
+            "Cuenta de usuario-conductor ya existe: B12885968",
+            "Actualizado usuario-conductor: B12885968",
+            "IdUsuarioTransportista - Transportista: 66",
+            "Actualizado Transportista: B12885968",
+            "Detectado tipo de transporte: C",
+            "MATRICULA validada correctamente: MCLU5120572",
+            "PRECINTO validado correctamente: 00218008",
+            "El primer lugar de carga es: INFRICO MEDCARE",
+            "Editando orden: 34305700",
+            "TIPO  C -> ACTUALIZANDO viaje: 103430570001",
+            "Orden insertada en la BD: 343057",
+            "Archivo movido exitosamente a \/var\/www\/html\/leader\/logistica\/view\/Ordenes\/descargas_procesados\/20250611\/34305700.json"
+        ]
+    },
+    {
+        "nombre_archivo": "34326600.json",
+        "procesado": true,
+        "errores": [
+            "MATRICULA no esta definida o esta vacia."
+        ],
+        "detalles": [
+            "DNI validado correctamente: 20449912Z",
+            "Email correcto: jc_dernis@hotmail.com",
+            "Cuenta de usuario-conductor ya existe: 20449912Z",
+            "Actualizado usuario-conductor: 20449912Z",
+            "IdUsuarioTransportista - Transportista: 49",
+            "Actualizado Transportista: 20449912Z",
+            "Detectado tipo de transporte: C",
+            "PRECINTO validado correctamente: ML-ES0597635",
+            "El primer lugar de carga es: INTERPLAST",
+            "INSERTANDO orden: 34326600",
+            "TIPO C -> INSERTANDO viaje: 103432660001",
+            "Orden insertada en la BD: 343266",
+            "Archivo movido exitosamente a \/var\/www\/html\/leader\/logistica\/view\/Ordenes\/descargas_procesados\/20250611\/34326600.json"
+        ]
+    },
+    {
+        "nombre_archivo": "34328100.json",
+        "procesado": true,
+        "errores": [
+            "PRECINTO no esta definido o esta vacio."
+        ],
+        "detalles": [
+            "DNI validado correctamente: B12885968",
+            "Email correcto: trafico@transluz2012.com",
+            "Cuenta de usuario-conductor ya existe: B12885968",
+            "Actualizado usuario-conductor: B12885968",
+            "IdUsuarioTransportista - Transportista: 66",
+            "Actualizado Transportista: B12885968",
+            "Detectado tipo de transporte: C",
+            "MATRICULA validada correctamente: MCLU5110110",
+            "El primer lugar de carga es: TORRES ESPIC",
+            "Editando orden: 34328100",
+            "TIPO  C -> ACTUALIZANDO viaje: 103432810001",
+            "Orden insertada en la BD: 343281",
+            "Archivo movido exitosamente a \/var\/www\/html\/leader\/logistica\/view\/Ordenes\/descargas_procesados\/20250611\/34328100.json"
+        ]
+    },
+    {
+        "nombre_archivo": "34328300.json",
+        "procesado": true,
+        "errores": [],
+        "detalles": [
+            "DNI validado correctamente: 07543287T",
+            "Email correcto: pascualdego@gmail.com",
+            "Cuenta de usuario-conductor ya existe: 07543287T",
+            "Actualizado usuario-conductor: 07543287T",
+            "IdUsuarioTransportista - Transportista: 53",
+            "Actualizado Transportista: 07543287T",
+            "Detectado tipo de transporte: C",
+            "MATRICULA validada correctamente: YMMU6309313",
+            "PRECINTO validado correctamente: YMAS312193",
+            "El primer lugar de carga es: COSTCO (TORIJA)",
+            "Editando orden: 34328300",
+            "TIPO  C -> ACTUALIZANDO viaje: 103432830001",
+            "Orden insertada en la BD: 343283",
+            "Archivo movido exitosamente a \/var\/www\/html\/leader\/logistica\/view\/Ordenes\/descargas_procesados\/20250611\/34328300.json"
+        ]
+    },
+    {
+        "nombre_archivo": "34330000.json",
+        "procesado": true,
+        "errores": [],
+        "detalles": [
+            "DNI validado correctamente: 20455419R",
+            "Email correcto: jcdernisdernis@gmail.com",
+            "Cuenta de usuario-conductor ya existe: 20455419R",
+            "Actualizado usuario-conductor: 20455419R",
+            "IdUsuarioTransportista - Transportista: 43",
+            "Actualizado Transportista: 20455419R",
+            "Detectado tipo de transporte: C",
+            "MATRICULA validada correctamente: MRKU3578110",
+            "PRECINTO validado correctamente: CL0475645",
+            "El primer lugar de carga es: ERTRANSIT VLC",
+            "Editando orden: 34330000",
+            "TIPO  C -> ACTUALIZANDO viaje: 103433000001",
+            "Orden insertada en la BD: 343300",
+            "Archivo movido exitosamente a \/var\/www\/html\/leader\/logistica\/view\/Ordenes\/descargas_procesados\/20250611\/34330000.json"
+        ]
+    },
+    {
+        "nombre_archivo": "34330300.json",
+        "procesado": true,
+        "errores": [],
+        "detalles": [
+            "DNI validado correctamente: 20455419R",
+            "Email correcto: jcdernisdernis@gmail.com",
+            "Cuenta de usuario-conductor ya existe: 20455419R",
+            "Actualizado usuario-conductor: 20455419R",
+            "IdUsuarioTransportista - Transportista: 43",
+            "Actualizado Transportista: 20455419R",
+            "Detectado tipo de transporte: C",
+            "MATRICULA validada correctamente: FSCU7230236",
+            "PRECINTO validado correctamente: HLD2350764",
+            "El primer lugar de carga es: SPALEX\/SP BERNER CHIVA",
+            "Editando orden: 34330300",
+            "TIPO  C -> ACTUALIZANDO viaje: 103433030001",
+            "Orden insertada en la BD: 343303",
+            "Archivo movido exitosamente a \/var\/www\/html\/leader\/logistica\/view\/Ordenes\/descargas_procesados\/20250611\/34330300.json"
+        ]
+    }
+]
