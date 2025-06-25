@@ -1,7 +1,8 @@
 <?php
-$json_string = json_encode('');
-$file = 'orden-Tse.json';
-file_put_contents($file, $json_string);
+// $json_string = json_encode('');
+// $file = 'orden-Tse.json';
+// file_put_contents($file, $json_string);
+
 class Transporte extends Conectar
 {
 
@@ -138,6 +139,7 @@ class Transporte extends Conectar
         // Create a JSON object with the incidence data
         $incidenceData = [
             'idOrden' => $idOrdenSinBarra,
+            'acccion' => 'insert',
             'reportante' => $reportante,
             'situacion' => $selectSituacion,
             'situacionLiteral' => $situacionLiteral,
@@ -150,27 +152,98 @@ class Transporte extends Conectar
         // Convert the data to JSON format
         $jsonString = json_encode($incidenceData, JSON_PRETTY_PRINT);
 
+
+        // Add timestamp to the file name to avoid overwriting
+        $timestamp = date('His'); // Format: HourMinuteSecond
+
         // Define the file path and name
-        $filePath = "../view/Ordenes/envios/I_{$idOrdenSinBarra}.json";
-
-        // Save the JSON to the specified file
-        file_put_contents($filePath, $jsonString);
-
-// Vamos a guardar la imagen en la carpeta de envios
+        // $filePath = "../view/Ordenes/envios/I_{$idOrdenSinBarra}.json";
+        $filePath = "../view/Ordenes/envios/I_{$idOrdenSinBarra}_{$timestamp}.json";
 
 
+
+        // Vamos a guardar la imagen en la carpeta de envios
+        // Extract the document names from the JSON object
+        $documentNames = $documentos['Documentos'];
+
+        // Iterate through all documents and copy them
+        foreach ($documentNames as $key => $documentName) {
+            // Define the source and destination paths
+            $sourcePath = "../public/incidencias/" . $documentName;
+            $destinationPath = "../view/Ordenes/envios/" . $documentName;
+
+            // PARA BORRAR //
+            // $caminos = [
+            //     'origen' => $idOrdenSinBarra,
+            //     'destino' => $reportante,
+            //     'documento' => $documentName,
+            // ];
+            // Convert the data to JSON format
+            // $jsonString_camino = json_encode($caminos, JSON_PRETTY_PRINT);
+            // file_put_contents($filePath, $jsonString_camino);
+            //PARA BORRAR //
+
+
+            // Check if the file exists in the source directory
+            if (file_exists($sourcePath)) {
+                // Copy the file to the destination directory
+                if (!copy($sourcePath, $destinationPath)) {
+                    error_log("Failed to copy $documentName from $sourcePath to $destinationPath");
+                }
+            } else {
+                error_log("File $documentName does not exist in $sourcePath");
+            }
+        }
+
+        //11062025171043269269674.jpg
 
         $sql = $conectar->prepare($sql);
         $sql->execute();
         return $resultado = $sql->fetchAll();
     }
 
+
+    // Cambiar de estado una incidencia a 0 (inactiva)
     public function cambiarEstado($idTransporte)
     {
 
         $conectar = parent::conexion();
         parent::set_names();
         $sql = "UPDATE `incidencia-Transporte` SET `estIncidencia`= 0 WHERE idIncidencia = $idTransporte";
+
+
+        // Retrieve the idOrden_Incidencia based on idIncidencia
+        $sqlRetrieve = "SELECT idOrden_Incidencia, fechaCreacionIncidencia FROM `incidencia-Transporte` WHERE idIncidencia = :idTransporte";
+        $stmtRetrieve = $conectar->prepare($sqlRetrieve);
+        $stmtRetrieve->bindParam(':idTransporte', $idTransporte, PDO::PARAM_INT);
+        $stmtRetrieve->execute();
+        $result = $stmtRetrieve->fetch();
+
+        if ($result) {
+            $idOrdenSinBarra = $result['idOrden_Incidencia'];
+        } else {
+            throw new Exception("No se encontró el idOrden_Incidencia para el idIncidencia proporcionado.");
+        }
+
+        // Create a JSON object with the incidence data
+        $incidenceData = [
+            'idOrden' => $idOrdenSinBarra,
+            'idTransporte' => $idTransporte,
+            'fechaCreacion' => $result['fechaCreacionIncidencia'],
+            'accion' => 'delete'
+        ];
+
+        // Convert the data to JSON format
+        $jsonString = json_encode($incidenceData, JSON_PRETTY_PRINT);
+        // Add timestamp to the file name to avoid overwriting
+        date_default_timezone_set('Europe/Madrid');
+        $timestamp = date('His'); // Format: HourMinuteSecond
+
+        $filePath = "../view/Ordenes/envios/I_{$idOrdenSinBarra}_{$timestamp}.json";
+
+        // Save the JSON to the specified file
+        file_put_contents($filePath, $jsonString);
+
         $sql = $conectar->prepare($sql);
         $sql->execute();
         return $resultado = $sql->fetchAll();
@@ -275,6 +348,39 @@ class Transporte extends Conectar
         $sql = "UPDATE `viaje-Transporte` SET 
         `fechaLlegadaViaje`='$fechaLlegada',`fechaSalidaViaje`='$fechaSalida',`ObservacionViaje`='$observacionesViaje',`FirmaViajeReceptor`='' WHERE idViaje = $idViaje";
 
+
+        // Hay que buscar el campo numero de orden para poder guardar el JSON en la carpeta de envios
+        $conectarOrden = parent::conexion();
+        parent::set_names();
+        $sqlOrden = "SELECT * FROM `viaje-Transporte` WHERE idViaje = $idViaje";
+        $sqlOrden = $conectarOrden->prepare($sqlOrden);
+        $sqlOrden->execute();
+        $ordenData = $sqlOrden->fetch();
+
+        // Obtener el numero de orden
+        $idOrden = $ordenData['numeroOrdenViaje'];
+        $lugarCode = $ordenData['LUGAR_COD'];
+        $idOrdenSanitized = str_replace("/", "", $idOrden);
+
+
+        // Vamos a montar el fichero JSON de la actualizacion del viaje
+        $viajeData = [
+            'orden' => $idOrdenSanitized,
+            'lugarCode' => $lugarCode,
+            'idViaje' => $idViaje,
+            'fechaLlegada' => $fechaLlegada,
+            'fechaSalida' => $fechaSalida,
+            'observaciones' => $observacionesViaje
+        ];
+        // Convert the data to JSON format
+        $jsonString = json_encode($viajeData, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE);
+
+        // Define the file path and name
+        $filePath = "../view/Ordenes/envios/V_{$idOrdenSanitized}.json";
+
+        // Save the JSON to the specified file
+        file_put_contents($filePath, $jsonString);
+
         $sql = $conectar->prepare($sql);
         $sql->execute();
         return $resultado = $sql->fetchAll();
@@ -300,16 +406,146 @@ class Transporte extends Conectar
             $sql = "UPDATE `viaje-Transporte` SET 
             `FirmaViajeConductor`='$signature',`nombreViajeConductor`='$nombreInput',`dniViajeConductor`='$DNIinput' 
             WHERE idViaje = $idViaje";
+
+
+
+            /**********************************/
+            /**             JSON              */
+            /**      firma Conductor           */
+            /**********************************/
+
+            // Hay que buscar el campo numero de orden para poder guardar el JSON en la carpeta de envios
+            $conectarOrden = parent::conexion();
+            parent::set_names();
+            $sqlOrden = "SELECT * FROM `viaje-Transporte` WHERE idViaje = $idViaje";
+            $sqlOrden = $conectarOrden->prepare($sqlOrden);
+            $sqlOrden->execute();
+            $ordenData = $sqlOrden->fetch();
+
+            // Obtener el numero de orden
+            $idOrden = $ordenData['numeroOrdenViaje'];
+            $lugarCode = $ordenData['LUGAR_COD'];
+            $idOrdenSanitized = str_replace("/", "", $idOrden);
+
+
+            // Vamos a montar el fichero JSON de la actualizacion del viaje
+            $firmaData = [
+                'orden' => $idOrdenSanitized,
+                'lugarCode' => $lugarCode,
+                'idViaje' => $idViaje,
+                'firmaConductor' => $signature,
+            ];
+            // Convert the data to JSON format
+            $jsonString = json_encode($firmaData, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE);
+            // Remove any slashes from the idOrden to avoid issues in the file name
+            // Define the file path and name
+            $filePath = "../view/Ordenes/envios/FCO_{$idOrdenSanitized}.json";
+
+            // Create a separate JSON file to log the values of $jsonString and $filePath for debugging
+            // $debugData = [
+            //     'filePath' => $filePath,
+            //     'jsonString' => $jsonString
+            // ];
+            // $debugFilePath = "../view/Ordenes/envios/debug_log.json";
+            // file_put_contents($debugFilePath, json_encode($debugData, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
+
+            // Save the JSON to the specified file
+            file_put_contents($filePath, $jsonString);
+
+            /**********************************/
+            /**              FIN              */
+            /**             JSON             */
+            /**      firma Conductor        */
+            /**********************************/
         } else if ($autorFirma == 'receptor') {
             $sql = "UPDATE `viaje-Transporte` SET 
             `FirmaViajeReceptor`='$signature',`nombreViajeReceptor`='$nombreInput',`correoViajeReceptor`='$correoInput',`dniViajeReceptor`='$DNIinput' 
             WHERE idViaje = $idViaje";
+
+            /**********************************/
+            /**             JSON              */
+            /**      firma receptor           */
+            /**********************************/
+
+            // Hay que buscar el campo numero de orden para poder guardar el JSON en la carpeta de envios
+            $conectarOrden = parent::conexion();
+            parent::set_names();
+            $sqlOrden = "SELECT * FROM `viaje-Transporte` WHERE idViaje = $idViaje";
+            $sqlOrden = $conectarOrden->prepare($sqlOrden);
+            $sqlOrden->execute();
+            $ordenData = $sqlOrden->fetch();
+
+            // Obtener el numero de orden
+            $idOrden = $ordenData['numeroOrdenViaje'];
+            $lugarCode = $ordenData['LUGAR_COD'];
+            $idOrdenSanitized = str_replace("/", "", $idOrden);
+
+            // Vamos a montar el fichero JSON de la actualizacion del viaje
+            $firmaData = [
+                'orden' => $idOrdenSanitized,
+                'lugarCode' => $lugarCode,
+                'idViaje' => $idViaje,
+                'firmaReceptor' => $signature,
+            ];
+            // Convert the data to JSON format
+            $jsonString = json_encode($firmaData, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE);
+
+            // Define the file path and name
+            $filePath = "../view/Ordenes/envios/FRE_{$idOrdenSanitized}.json";
+
+            // Save the JSON to the specified file
+            file_put_contents($filePath, $jsonString);
+
+            /**********************************/
+            /**              FIN              */
+            /**             JSON              */
+            /**      firma receptor           */
+            /**********************************/
         } else if ($autorFirma == 'cliente') {
             $sql = "UPDATE `orden-Transporte` SET 
             `nombreCliente`='$nombreInput',`correoCliente`='$correoInput',`dniCliente`='$DNIinput',`firmaCliente`='$signature'
              WHERE `tokenOrden` = '$idOrdenReceptor'";
-        }
 
+            /**********************************/
+            /**             JSON              */
+            /**      Firma Cliente           */
+            /**********************************/
+
+            // Hay que buscar el campo numero de orden para poder guardar el JSON en la carpeta de envios
+            $conectarOrden = parent::conexion();
+            parent::set_names();
+            $sqlOrden = "SELECT * FROM `viaje-Transporte` WHERE idViaje = $idViaje";
+            $sqlOrden = $conectarOrden->prepare($sqlOrden);
+            $sqlOrden->execute();
+            $ordenData = $sqlOrden->fetch();
+
+            // Obtener el numero de orden
+            $idOrden = $ordenData['numeroOrdenViaje'];
+            $lugarCode = $ordenData['LUGAR_COD'];
+            $idOrdenSanitized = str_replace("/", "", $idOrden);
+
+            // Vamos a montar el fichero JSON de la actualizacion del viaje
+            $firmaData = [
+                'orden' => $idOrdenSanitized,
+                'lugarCode' => $lugarCode,
+                'idViaje' => $idViaje,
+                'firmaCliente' => $signature,
+            ];
+            // Convert the data to JSON format
+            $jsonString = json_encode($firmaData, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE);
+
+            // Define the file path and name
+            $filePath = "../view/Ordenes/envios/FCL_{$idOrdenSanitized}.json";
+
+            // Save the JSON to the specified file
+            file_put_contents($filePath, $jsonString);
+
+            /**********************************/
+            /**              FIN              */
+            /**             JSON              */
+            /**       firma Cliente           */
+            /**********************************/
+        }
 
         $sql = $conectar->prepare($sql);
         $sql->execute();

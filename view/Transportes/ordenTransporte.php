@@ -355,10 +355,7 @@
             /* Espacio interno para separar el contenido */
         }
 
-        //************************************/
-        //************** css FORM ************/
-        //************************************/
-
+        /* CSS FORM */
 
         .form-layout-footer .btn,
         .form-layout-footer .sp-container button,

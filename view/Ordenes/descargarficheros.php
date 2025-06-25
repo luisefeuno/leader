@@ -372,7 +372,7 @@ $errorText = 0;
                 }
 
                 // Guardar el archivo JSON de control después de procesar el lote
-                file_put_contents($nombreArchivoJson, json_encode($controlDescarga, JSON_PRETTY_PRINT));
+                file_put_contents($nombreArchivoJson, json_encode($controlDescarga, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
                 //echo "Archivo de control JSON actualizado tras procesar el lote " . ($loteIndex + 1) . ": $nombreArchivoJson<br>";
                 //flush();
 
@@ -510,7 +510,7 @@ $errorText = 0;
                     // Crear un directorio con el formato YYYYMMDD si no existe
                     $directorioDiaErrores = __DIR__ . '/errores_procesados/' . date('Ymd');
 
-                    $jsonvariable = json_encode($directorioDiaErrores, JSON_PRETTY_PRINT);
+                    $jsonvariable = json_encode($directorioDiaErrores, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE);
                     $archivoJson = __DIR__ . '/archivo_error.json'; // NOMBRE DEL ARCHIVO json A guardar
                     file_put_contents($archivoJson, $jsonvariable);
 
@@ -532,7 +532,7 @@ $errorText = 0;
                     }
 
                     // Guardar el registro del proceso en un archivo JSON
-                    file_put_contents($nombreArchivoProcesoJson, json_encode($registroProceso, JSON_PRETTY_PRINT));
+                    file_put_contents($nombreArchivoProcesoJson, json_encode($registroProceso, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
 
                     // Si el DNI tiene menos de 4 posiciones la orden no se crea en el caso de que no  se quiera validar se omite el continue;
                     continue;
@@ -1281,7 +1281,7 @@ $errorText = 0;
 
 
             // Guardar el registro del proceso en un archivo JSON
-            file_put_contents($nombreArchivoProcesoJson, json_encode($registroProceso, JSON_PRETTY_PRINT));
+            file_put_contents($nombreArchivoProcesoJson, json_encode($registroProceso, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
 
             //echo "Registro del proceso guardado en: $nombreArchivoProcesoJson<br>";
             //flush();
